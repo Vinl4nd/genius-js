@@ -1,12 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Lesson 1</title>
-  </head>
+<html>
   <body>
-    <button id="html">HTML</button>
-    <button id="css">CSS</button>
+    <div data-widget-name="menu">Виберіть жанр</div>
+    <script>
+      let elements = document.querySelector('[data-widget-name]');
+      console.log(elements.getAttribute('data-widget-name'));
+    </script>
   </body>
-  <script src="./script.js"></script>
 </html>

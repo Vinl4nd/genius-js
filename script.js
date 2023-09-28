@@ -366,3 +366,81 @@
 //   console.log(alert(`${item} = ${price * amount}`));
 // }
 // store();
+
+// Домашнє завдання. 6
+
+// --1--
+// Створити телефонну книгу
+// створити початковий клас Abonent, де зберігатимуться ім*я і номер
+// створити set який прийматиме телефон і номер
+// створити get який виводитиме данні про абонента
+// створити три різних юзери
+// вивести данні
+
+// class Abonent {
+//   constructor(Object) {
+//     this.name = Object.name;
+//     this.number = Object.number;
+//   }
+
+//   name = '';
+//   number = '';
+
+//   set abonentData(NewAbonent) {
+//     this.number = NewAbonent.number;
+//     this.name = NewAbonent.name;
+//   }
+
+//   get abonentData() {
+//     return console.log(`Ваше ім'я:  ${this.name}, Ваш номер:  ${this.number}`);
+//   }
+// }
+
+// const Alex = new Abonent({
+//   name: 'Alexandr',
+//   number: +380677384044,
+// });
+
+// console.log(Alex);
+
+// Домашнє завдання. 7
+
+// ----1----
+// Створіть функцію-конструктор Calculator, який створює об’єкти з трьома
+// методами:
+// read() запитує два значення за допомогою prompt і запам’ятовує їх у
+// властивостях об’єкта.
+// sum() повертає суму цих властивостей.
+// mul() повертає результат множення даних властивостей
+
+// function Calculator() {
+//   this.read = function () {
+//     this.firstNum = +prompt('Введіть перше значення');
+//     this.secondNum = +prompt('Введіть друге значення');
+//   };
+//   this.sum = function () {
+//     return `Сумма = ${this.firstNum + this.secondNum}`;
+//   };
+
+//   this.mul = function () {
+//     return `Результат множення = ${this.firstNum * this.secondNum}`;
+//   };
+// }
+
+// let Calculations = new Calculator();
+// Calculations.read();
+
+// alert(Calculations.sum());
+
+// Домашнє завдання. 8
+
+// -----1-----
+// Напишіть код, щоб вибрати елемент з атрибутом data-widget-name з документа
+// та прочитати його значення.
+// <!DOCTYPE html>
+// <html>
+// <body>
+// <div data-widget-name="menu">Виберіть жанр</div>
+// <script>/* ваш код */</script>
+// </body>
+// </html>
