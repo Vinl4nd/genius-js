@@ -1,10 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
   <body>
-    <div data-widget-name="menu">Виберіть жанр</div>
-    <script>
-      let elements = document.querySelector('[data-widget-name]');
-      console.log(elements.getAttribute('data-widget-name'));
-    </script>
+    <!--  -----1---- -->
+    <!-- <div id="text">
+      <p>text</p>
+    </div>
+    <button id="btn">Hide text</button> -->
+
+    <!-- -----2---- -->
+    <!-- <button id="btn">Зникни</button> -->
+
+    <!-- -----3---- -->
+    <div id="parent">
+      parent
+      <div id="child">
+        child
+        <div id="item">item</div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
   </body>
 </html>

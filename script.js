@@ -444,3 +444,40 @@
 // <script>/* ваш код */</script>
 // </body>
 // </html>
+
+// Домашнє завдання. 9
+
+// -----1----
+// Напишіть такий JavaScript, щоб після натискання на кнопку button, елемент
+// <div id="text"> зникав.
+
+// const hideBtn = document.querySelector('#btn');
+// const textHide = () => {
+//   const text = (document.querySelector('#text').hidden = true);
+// };
+
+// hideBtn.addEventListener('click', textHide);
+
+// -----2----
+// Напишіть такий код, щоб після натискання на кнопку, вона зникала.
+
+// const btnDissapear = document.querySelector('#btn');
+
+// const hideBtn = () => {
+//   const hide = (document.querySelector('#btn').hidden = true);
+// };
+
+// btnDissapear.addEventListener('click', hideBtn);
+
+// -----3----
+// Створіть дерево, яке показує/приховує дочірні вузли при кліц
+
+// const parent = document.querySelector('#parent');
+// const child = document.querySelector('#child');
+// const item = document.querySelector('#item');
+
+// const handleClick = () => {
+//   const hideChild = (document.querySelector('#child').hidden = true);
+// };
+
+// parent.addEventListener('click', handleClick);
